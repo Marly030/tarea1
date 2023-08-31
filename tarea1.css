@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #6FE5BE;
+}
+
+section {
+    position: relative;
+    padding: 15px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+    padding: 5px;
+}
+
+div {
+    position: relative;
+    background-color: #4C4A4A;
+    border: 3.5px solid black;
+    width: 100%;
+    margin: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.Charmander {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size:small;
+    font-weight: bold;
+    background-color: #D12D2D;
+}
+
+.Squirtle {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    background-color: #037C9B;
+    color: #FFF;
+}
+
+.Bulbasaur {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: -3px -3px 0px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    background-color: #77D86E;
+}
+
+.content {
+    padding: 5px;
+    border: none;
+    background-color: #9a9999;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0a0a0a;
+    margin: 3px;
+    height: 150px;
+    overflow: auto;
+}
+.row {
+width: 90%;
+}
+   @media (min-width:992px) {
+.column-lg-4 {
+    float: left;
+    width: 33.33%;
+}
+   }
